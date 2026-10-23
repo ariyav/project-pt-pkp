@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeri Foto Pelatihan | LPK PT PKP Petrokimia Gresik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/lpk.css">
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>LPK PT PKP Petrokimia Gresik</span><span>Pelatihan Industri • Pengembangan SDM • Kompetensi Kerja</span></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Beranda"><img src="img/logo-lpk.jpg" alt="Logo PT PKP Petrokimia Gresik"><span class="brand-name">LPK PT PKP Petrokimia Gresik<small>Lembaga Pelatihan Kerja</small></span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Utama">
+        <ul class="nav-list">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="jadwal.html">Jadwal</a></li>
+          <li><a href="galeri.html" class="active">Galeri</a></li>
+          <li><a href="perusahaan.html">Perusahaan</a></li>
+          <li><a href="alur-daftar.html">Alur Daftar</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <a class="btn btn-brand" href="login.html">Masuk</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Beranda</a> / Galeri</div>
+      <h1>Galeri Kegiatan &amp; Pelatihan</h1>
+      <p>Dokumentasi suasana belajar, praktik laboratorium, pengenalan mesin industri, dan kegiatan sertifikasi peserta.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" data-filter-group="#galleryGrid" style="justify-content:center" role="group" aria-label="Filter galeri">
+          <button class="filter-pill is-active" data-filter="all" aria-pressed="true">Semua Foto</button>
+          <button class="filter-pill" data-filter="teori" aria-pressed="false">Teori Kelas</button>
+          <button class="filter-pill" data-filter="praktik" aria-pressed="false">Praktik Lapangan</button>
+          <button class="filter-pill" data-filter="k3" aria-pressed="false">K3 &amp; Safety</button>
+          <button class="filter-pill" data-filter="sertifikasi" aria-pressed="false">Sertifikasi</button>
+        </div>
+
+        <div class="grid grid-3" id="galleryGrid">
+          <div class="gallery-item" data-category="teori"><div class="g-img"><img src="img/hero.jpg" alt="Sesi teori di kelas" loading="lazy"></div><div class="gallery-body"><h3>Sesi Pembelajaran Kelas</h3><p>Instruktur memberikan pemahaman dasar teori kepada para peserta.</p></div></div>
+          <div class="gallery-item" data-category="praktik"><div class="g-img"><img src="img/cta.jpg" alt="Praktik pemeliharaan mesin" loading="lazy"></div><div class="gallery-body"><h3>Praktik Pemeliharaan Mesin</h3><p>Peserta mempelajari perawatan alat dan kompresor industri.</p></div></div>
+          <div class="gallery-item" data-category="k3"><div class="g-img"><img src="img/hero.jpg" alt="Simulasi prosedur K3" loading="lazy"></div><div class="gallery-body"><h3>Penerapan Prosedur K3</h3><p>Pelatihan standar keselamatan kerja di area manufaktur.</p></div></div>
+          <div class="gallery-item" data-category="praktik"><div class="g-img"><img src="img/cta.jpg" alt="Laboratorium instrumentasi" loading="lazy"></div><div class="gallery-body"><h3>Uji Laboratorium Instrumentasi</h3><p>Pengukuran dan kalibrasi alat ukur proses industri.</p></div></div>
+          <div class="gallery-item" data-category="sertifikasi"><div class="g-img"><img src="img/hero.jpg" alt="Uji kompetensi" loading="lazy"></div><div class="gallery-body"><h3>Evaluasi &amp; Uji Kompetensi</h3><p>Penilaian akhir praktik untuk memastikan kesiapan kerja peserta.</p></div></div>
+          <div class="gallery-item" data-category="praktik"><div class="g-img"><img src="img/cta.jpg" alt="Kunjungan unit operasi" loading="lazy"></div><div class="gallery-body"><h3>Kunjungan Unit Operasi</h3><p>Melihat langsung proses operasional di lingkungan industri Petrokimia.</p></div></div>
+        </div>
+        <p class="grid-empty" id="gridEmpty" hidden>Belum ada foto pada kategori ini.</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container"><div class="cta-box"><div><h2>Tertarik bergabung?</h2><p>Lihat program dan jadwal pelatihan yang tersedia.</p></div><a class="btn btn-gold" href="program.html">Lihat Program →</a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html"><img src="img/logo-lpk.jpg" alt="Logo PT PKP Petrokimia Gresik"><span class="brand-name">LPK PT PKP Petrokimia Gresik<small>Lembaga Pelatihan Kerja</small></span></a>
+          <p class="footer-blurb">Pelatihan industri, pengembangan SDM, dan peningkatan kompetensi kerja.</p>
+          <ul>
+            <li>Ruko Kawasan Industri Gresik Blok A-0, Jl. Tri Dharma, Gresik</li>
+            <li><a href="https://wa.me/6281233882180" target="_blank" rel="noopener">Mbak IIS · 0812-3388-2180</a></li>
+            <li><a href="https://wa.me/6281331899802" target="_blank" rel="noopener">Mas Wahyu · 081331899802</a></li>
+          </ul>
+        </div>
+        <div><h3>Jelajahi</h3><ul><li><a href="profil.html">Profil LPK</a></li><li><a href="program.html">Program</a></li><li><a href="jadwal.html">Jadwal</a></li><li><a href="galeri.html">Galeri Foto</a></li><li><a href="perusahaan.html">Untuk Perusahaan</a></li></ul></div>
+        <div><h3>Pendaftaran</h3><ul><li><a href="alur-daftar.html">Alur Pendaftaran</a></li><li><a href="kontak.html">Formulir Minat</a></li><li><a href="register.html">Buat Akun</a></li><li><a href="login.html">Masuk</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> LPK PT PKP Petrokimia Gresik. Hak Cipta Dilindungi.</span></div>
+    </div>
+  </footer>
+  <div class="mobile-cta"><a class="btn btn-brand" href="kontak.html">Tanya Program via WhatsApp</a></div>
+  <script src="js/lpk.js"></script>
+</body>
+</html>

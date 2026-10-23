@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buat Akun Baru | LPK PT PKP Petrokimia Gresik</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lpk.css">
+
+  <style>
+    body {
+      background-color: var(--lpk-paper, #f5f8f5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1.5rem 1rem;
+    }
+
+    .auth-wrapper {
+      width: 100%;
+      max-width: 480px;
+    }
+
+    .auth-card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(0, 75, 53, 0.08);
+      padding: 2.25rem 2rem;
+      border: 1px solid var(--lpk-line, rgba(20,40,32,.14));
+    }
+
+    .auth-brand {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .auth-brand img {
+      height: 52px;
+      width: auto;
+      border-radius: 8px;
+      margin-bottom: .75rem;
+    }
+
+    .auth-brand h1 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--lpk-primary, #006b45);
+      margin: 0 0 .25rem;
+    }
+
+    .auth-brand p {
+      font-size: .88rem;
+      color: var(--lpk-muted, #5d6b65);
+      margin: 0;
+    }
+
+    /* Memastikan label block di atas dan input full kiri-kanan */
+    .auth-form .mb-3, .auth-form .mb-4 {
+      display: block !important;
+      text-align: left;
+    }
+
+    .auth-form .form-label {
+      display: block !important;
+      width: 100% !important;
+      font-weight: 700;
+      font-size: .85rem;
+      color: #2b3330;
+      margin-bottom: .4rem;
+    }
+
+    .auth-form .form-control, .auth-form .form-select {
+      display: block !important;
+      width: 100% !important;
+      padding: .7rem .95rem;
+      border-radius: 10px;
+      border: 1px solid rgba(20,40,32,.22);
+      font-size: .95rem;
+      color: #15372d;
+      background-color: #fff;
+    }
+
+    .auth-form .form-control:focus, .auth-form .form-select:focus {
+      border-color: var(--lpk-primary, #006b45);
+      box-shadow: 0 0 0 0.2rem rgba(0, 107, 69, 0.18);
+    }
+
+    .btn-brand {
+      padding: .8rem 1rem;
+      border-radius: 10px;
+      font-size: .95rem;
+      width: 100%;
+    }
+
+    .auth-footer {
+      text-align: center;
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--lpk-line, rgba(20,40,32,.14));
+      font-size: .88rem;
+      color: var(--lpk-muted, #5d6b65);
+    }
+
+    .auth-footer a {
+      color: var(--lpk-primary, #006b45);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .auth-footer a:hover {
+      text-decoration: underline;
+    }
+
+    .back-home {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      margin-top: 1rem;
+      font-size: .84rem;
+      color: var(--lpk-muted, #5d6b65);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .back-home:hover {
+      color: var(--lpk-primary, #006b45);
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1rem .75rem;
+      }
+      .auth-card {
+        padding: 1.6rem 1.25rem;
+        border-radius: 16px;
+      }
+      .auth-brand img {
+        height: 46px;
+      }
+      .auth-brand h1 {
+        font-size: 1.2rem;
+      }
+      .auth-brand p {
+        font-size: .82rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="auth-wrapper">
+    <div class="auth-card">
+      <div class="auth-brand">
+        <a href="index.html" aria-label="Ke beranda LPK">
+          <img src="img/logo-lpk.jpg" alt="Logo LPK PT PKP Petrokimia Gresik">
+        
+        <h1>Daftar Akun Peserta</h1>
+        <p>LPK PT PKP Petrokimia Gresik</p>
+        </a>
+      </div>
+
+      <form action="#" method="post" class="auth-form">
+        <div class="mb-3">
+          <label for="fullname" class="form-label">Nama Lengkap *</label>
+          <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Masukkan nama sesuai ID" required autocomplete="name">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Alamat Email *</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="nama@email.com" required autocomplete="email">
+        </div>
+
+        <div class="mb-3">
+          <label for="whatsapp" class="form-label">Nomor WhatsApp *</label>
+          <input type="tel" class="form-control" id="whatsapp" name="whatsapp" placeholder="081234567890" required autocomplete="tel">
+        </div>
+
+        <div class="mb-3">
+          <label for="category" class="form-label">Kategori Peserta *</label>
+          <select class="form-select" id="category" name="category" required>
+            <option value="">Pilih Kategori</option>
+            <option value="umum">Individu / Umum</option>
+            <option value="pelajar">Siswa / Mahasiswa</option>
+            <option value="perusahaan">Utusan Perusahaan</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Kata Sandi *</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Minimal 8 karakter" required autocomplete="new-password">
+        </div>
+
+        <div class="mb-4">
+          <label for="confirm_password" class="form-label">Konfirmasi Kata Sandi *</label>
+          <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Ulangi kata sandi" required autocomplete="new-password">
+        </div>
+
+        <div>
+          <a>  </a>
+        </div>
+        <button type="submit" class="btn btn-brand">Daftar Sekarang</button>
+      </form>
+
+      <div class="auth-footer">
+        Sudah memiliki akun? <a href="login.html">Masuk di sini</a>
+        <div>
+          <a href="index.html" class="back-home">&larr; Kembali ke Beranda</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

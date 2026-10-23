@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak | LPK PT PKP Petrokimia Gresik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/lpk.css">
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>LPK PT PKP Petrokimia Gresik</span><span>Pelatihan Industri • Pengembangan SDM • Kompetensi Kerja</span></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Beranda"><img src="img/logo-lpk.jpg" alt="Logo PT PKP Petrokimia Gresik"><span class="brand-name">LPK PT PKP Petrokimia Gresik<small>Lembaga Pelatihan Kerja</small></span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Utama">
+        <ul class="nav-list">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="jadwal.html">Jadwal</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="perusahaan.html">Perusahaan</a></li>
+          <li><a href="alur-daftar.html">Alur Daftar</a></li>
+          <li><a href="kontak.html" class="active">Kontak</a></li>
+        </ul>
+        <a class="btn btn-brand" href="login.html">Masuk</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Beranda</a> / Kontak</div>
+      <h1>Kontak &amp; Konsultasi</h1>
+      <p>Konsultasikan program pelatihan untuk diri Anda, sekolah, atau perusahaan.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="box">
+            <h3>LPK PT PKP Petrokimia Gresik</h3>
+            <p class="muted">Hubungi kontak berikut untuk informasi awal, ketersediaan program, dan konsultasi pelatihan.</p>
+            <div class="line"><small>Alamat</small><strong>Ruko Kawasan Industri Gresik Blok A-0,<br>Jl. Tri Dharma, Gresik</strong></div>
+            <div class="line"><small>Kontak person</small><strong>Mbak IIS</strong><br><a class="wa" href="https://wa.me/6281233882180" target="_blank" rel="noopener">0812-3388-2180 · WhatsApp</a></div>
+            <div class="line"><strong>Mas Wahyu</strong><br><a class="wa" href="https://wa.me/6281331899802" target="_blank" rel="noopener">081331899802 · WhatsApp</a></div>
+            <p class="fine">Alamat dan nomor kontak ditampilkan berdasarkan informasi yang diberikan pengelola; mohon konfirmasi sebelum website dipublikasikan.</p>
+          </div>
+
+          <div class="box">
+            <h3>Formulir minat pelatihan</h3>
+            <p class="muted" style="font-size:.88rem">Formulir menyiapkan pesan WhatsApp berisi kebutuhan Anda. Data tidak dikirim ke server.</p>
+            <form class="lpk-form" id="leadForm">
+              <div class="form-row">
+                <div><label for="nama">Nama lengkap / perusahaan *</label><input id="nama" name="nama" required placeholder="Nama Anda atau perusahaan" autocomplete="organization"></div>
+                <div><label for="peserta">Jenis peminat *</label>
+                  <select id="peserta" name="peserta" required><option value="">Pilih kategori</option><option>Individu / calon peserta</option><option>Siswa / mahasiswa</option><option>Sekolah / perguruan tinggi</option><option>Perusahaan / industri</option></select></div>
+              </div>
+              <div class="form-row">
+                <div><label for="programPilihan">Bidang yang diminati *</label>
+                  <select id="programPilihan" name="programPilihan" required><option value="">Pilih bidang</option><option>Mekanik</option><option>Listrik</option><option>Instrumentasi</option><option>Laboratorium</option><option>K3 Industri</option><option>Utility</option><option>Pelatihan khusus / in-house</option><option>Lainnya</option></select></div>
+                <div><label for="jumlah">Jumlah peserta</label><input id="jumlah" name="jumlah" placeholder="Contoh: 10 orang"></div>
+              </div>
+              <label for="pesan">Kebutuhan / pertanyaan</label>
+              <textarea id="pesan" name="pesan" placeholder="Tuliskan kebutuhan pelatihan atau pertanyaan Anda"></textarea>
+              <label for="pic">Pilih kontak tujuan</label>
+              <select id="pic" name="pic"><option value="6281233882180">Mbak IIS</option><option value="6281331899802">Mas Wahyu</option></select>
+              <button class="btn btn-brand" type="submit" style="width:100%">Kirim melalui WhatsApp</button>
+              <p class="fine">Tombol akan membuka WhatsApp dengan pesan yang sudah disiapkan. Periksa isi pesan sebelum mengirim.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html"><img src="img/logo-lpk.jpg" alt="Logo PT PKP Petrokimia Gresik"><span class="brand-name">LPK PT PKP Petrokimia Gresik<small>Lembaga Pelatihan Kerja</small></span></a>
+          <p class="footer-blurb">Pelatihan industri, pengembangan SDM, dan peningkatan kompetensi kerja.</p>
+          <ul>
+            <li>Ruko Kawasan Industri Gresik Blok A-0, Jl. Tri Dharma, Gresik</li>
+            <li><a href="https://wa.me/6281233882180" target="_blank" rel="noopener">Mbak IIS · 0812-3388-2180</a></li>
+            <li><a href="https://wa.me/6281331899802" target="_blank" rel="noopener">Mas Wahyu · 081331899802</a></li>
+          </ul>
+        </div>
+        <div><h3>Jelajahi</h3><ul><li><a href="profil.html">Profil LPK</a></li><li><a href="program.html">Program</a></li><li><a href="jadwal.html">Jadwal</a></li><li><a href="galeri.html">Galeri Foto</a></li><li><a href="perusahaan.html">Untuk Perusahaan</a></li></ul></div>
+        <div><h3>Pendaftaran</h3><ul><li><a href="alur-daftar.html">Alur Pendaftaran</a></li><li><a href="kontak.html">Formulir Minat</a></li><li><a href="register.html">Buat Akun</a></li><li><a href="login.html">Masuk</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> LPK PT PKP Petrokimia Gresik. Hak Cipta Dilindungi.</span></div>
+    </div>
+  </footer>
+  <script src="js/lpk.js"></script>
+</body>
+</html>
